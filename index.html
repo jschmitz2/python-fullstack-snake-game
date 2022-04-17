@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+    crossorigin="anonymous"
+  />
+  <link
+  rel="stylesheet"
+  href="./styles.css"
+  />
+  <head>
+    <title>Python Snake Game</title>
+  </head>
+
+  <body>
+    <div id="page">
+      <div class="page-header">
+        <h1>Time to play Snake!</h1>
+      </div>
+      <div>
+        <canvas width="1000" height="1000" id="canvas"> </canvas>
+      </div>
+      <div>
+          <h2>Score</h2>
+          <div>
+              <span>Your score: </span>
+              <span id="score">5</span>
+              <br/>
+              <button id="restart">Restart</button>
+          </div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
