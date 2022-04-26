@@ -30,7 +30,6 @@ class BoardPiece(BaseModel):
     y: int 
 
     def move(self, input: Direction):
-        print(self)
         if input == Direction.UP:
             self.y += 1
         elif input == Direction.RIGHT:
@@ -91,7 +90,6 @@ class Board(BaseModel):
         if next in self.trees:
             self.active = False
 
-    
         if not self.active:
             return
         

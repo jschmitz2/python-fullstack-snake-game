@@ -7,4 +7,4 @@
 3. Run `.\venv\Scripts\activate`. 
 4. Run `pip install -r requirements.txt`. This will install all of the requirements needed for the project. 
 5. Run `python app.py`. 
-
+6. Open "index.html" in your web browser. 
